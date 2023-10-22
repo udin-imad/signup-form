@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Signup Form</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="left">
+      <div class="title">
+        <img id="icon" src="icon/odin-lined.png">
+        <h1>ODIN</h1>
+      </div>
+      <p id="credit">
+        Photo by 
+        <span>
+          <a href="https://www.pexels.com/@canvastudio/">Canva Studio</a>
+        </span>
+      </p>
+    </div>
+
+    <div class="right">
+      <div class="para">
+        <p>This is not real online service! You know you need something<br/> like this in your life to help you realize your deepest dreams.<br/>Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+      <p class="title">Let's do this!<p/>
+      <form action="" method="post">
+        <div class="form-wrapper">
+          <div class="left-form">
+            <label for="first_name">FIRST NAME</label>
+            <input type="text" name="first_name" id="first_name" required>
+            <label for="email">EMAIL</label>
+            <input type="email" name="usermail" id="email" required>
+            <label for="pwd">PASSWORD</label>
+            <input type="password" name="userpass" id="pwd" required>
+          </div>
+          <div class="right-form">
+            <label for="last_name">LAST NAME</label>
+            <input type="text" name="last_name" id="last_name" required>
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" name="userphone" id="phone" required>
+            <label for="confirm_pwd">PASSWORD</label>
+            <input type="password" name="userpass" id="confirm_pwd"required>
+          </div>
+        </div>
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="">Log in</a></p>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
