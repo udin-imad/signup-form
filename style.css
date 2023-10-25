@@ -92,9 +92,14 @@ span a:only-child {
 
 .form-wrapper {
   display: flex;
-  gap: 60px;
+  flex-wrap: wrap;
   padding-bottom: 20px;
   box-shadow: 0 3px 6px rgba(177, 177, 177, 0.76);
+}
+
+.input {
+  margin-left: 40px;
+  margin-right: 20px;
 }
 
 form {
@@ -129,7 +134,8 @@ input[type]:focus:invalid {
   outline: 1px solid #ff4242;
 }
 
-.error {
+.error-message {
+  display: none;
   margin: 0;
   margin-top: -14px;
   font-size: 0.7rem;
